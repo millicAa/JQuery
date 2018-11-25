@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery UI</title>
+
+<link rel="stylesheet" type="text/css" href="jquery-ui-1.11.3.custom/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="jquery-ui-1.11.3.custom/jquery-ui.structure.css">
+<link rel="stylesheet" type="text/css" href="jquery-ui-1.11.3.custom/jquery-ui.theme.css">
+<link rel="stylesheet" type="text/css" href="css/stil.css"/>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<script src="jquery-ui-1.11.3.custom/external/jquery/jquery.js"></script>
+<script src="jQuery/jquery.tcycle.js"></script>
+<script src="jquery-ui-1.11.3.custom/jquery-ui.js"></script>
+<script src="jQuery/mojskript.js"></script>
+
+<meta http-equiv="Content-Language" content="sr" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+</head>
+
+
+<body>
+
+	<div id="wrapper"> 
+	
+	<h1>jQuery UI</h1>
+
+	<form>
+	<!-- prva tri dugmeta za menjanje pozadine -->
+	  <div id="radio">
+	  	<h2> Odaberite boju pozadine</h2>
+	    <input type="radio" id="radio1" name="radio"><label for="radio1">Svetlo plava</label>
+	    <input type="radio" id="radio2" name="radio" checked="checked"><label for="radio2">Tamno plava</label>
+	    <input type="radio" id="radio3" name="radio"><label for="radio3">Tirkizna</label>
+	  </div>
+	</form>
+
+	<button id="btnBoja">Odaberite boju</button>
+
+	<div id="boja">
+		<div id="ispis_datuma"></div>
+	</div>
+
+	<div id="izbor_datuma">
+		<h2>Izaberite datum:</h2>
+		<input type="text" id="datepicker"></p>
+		<button id="dugme1">Klikni da vidis da li ima popusta!</button>
+	</div>
+
+
+	<div id="dialog" title="Prodavnice i njihove lokacije">
+	  <p>
+	  	Zara - Usce TC <br>
+	  	XYZ - Usce TC <br>
+	  	Massimo Dutti - Delta City <br>
+	  	Shoe Star - TC Usce<br>
+	  	Polo Ralph Lauren - Delta City<br>
+	  	Lacoste - Delta City<br>
+	</p>
+	</div>
+
+	<br><br><br><br><br>
+
+	<div id="cene">
+	<p>
+	  <label for="amount"><h2>Cena u evrima:</h2></label>
+	  <input type="text" class="input" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+	</p>
+	 
+	<div id="slider"></div>
+
+	
+	<label for="amount"><h2>Cena u dinarima:</h2></label>
+	<input type="text" id="dinari">
+	</div>
+
+	
+
+	<button id="dugme2" class="ui-state-default ui-corner-all">Klikni</button>
+	<br>
+
+
+	<div class="toggler">
+	  <div id="effect" class="ui-widget-content ui-corner-all">
+	    <p id="text">
+	        Zara - Usce TC <br>
+		  	XYZ - Usce TC <br>
+		  	Massimo Dutti - Delta City <br>
+		  	Shoe Star - TC Usce <br>
+		  	Polo Ralph Lauren - Delta City <br>
+		  	Lacoste - Delta City <br>
+	    </p>
+	  </div>
+	</div>
+
+
+	</div> <!-- Wrapper -->
+
+</body>
+</html>

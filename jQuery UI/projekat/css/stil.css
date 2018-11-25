@@ -1,0 +1,107 @@
+body{
+  background-color: #644EFF;
+  height: 2000px;
+}
+
+h1{
+  color: #605;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2{
+  color: #eff;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3{
+  color: #FAA523;
+  text-align: center;
+  font-size: 50px;
+  float: right;
+}
+
+#wrapper {
+  padding-top: 25px;
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  box-shadow: 0 1px 5px #505152;
+  -webkit-box-shadow: 0 2px 10px #505152;
+  -moz-box-shadow: 0 2px 10px #505152;
+  background-color: rgb(186, 78, 255);
+  padding-bottom: 250px;
+}
+
+#boja{
+  margin-top: 425px;
+  font-size: 20px;
+}
+
+#izbor_datuma{
+  font-size: 20px;
+}
+
+#slider{
+  display: inline-block;
+  width: 400px;
+}
+
+#cene{
+  font-size: 25px;
+}
+
+ul{
+   list-style-type: none;
+}
+
+.logo{
+  height: 150px;
+  width: 140px;
+  list-style: none;
+}
+
+h4{
+  color: #4CED69;
+  font-size: 40px;
+}
+
+input {
+  padding: 5px;
+
+}
+
+
+  .toggler {
+   width: 500px; height: 500px; position: relative; float: left;
+   margin-left: 250px; 
+  }
+    #dugme2 {
+     padding: 10px; text-decoration: none;
+     margin: 0px;
+     padding-left: 25px;
+     padding-right: 25px;
+     border-radius: 0px;
+     margin-top: 25px;
+     margin-bottom: 25px;
+      }
+    #effect { 
+      width: 240px; height: 185px; padding: 0.4em; position: relative; background: #fff; 
+    }
+    #effect h3 {
+     margin: 0; padding: 0.4em; text-align: center;
+      }
+
+
+#text{
+  font-size: 15px;
+}
+
+#btnBoja{
+  margin-top: 25px;
+}
